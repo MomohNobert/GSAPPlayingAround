@@ -16,11 +16,11 @@ const EntryView = () => {
         console.log(xPos, yPos)
 
         TweenLite.to(imgRef, {
-            duration: 1.2,
+            duration: 1.5,
             x: xPos*100,
             y: yPos*100,
-            rotationY: xPos*40,
-            rotationX: yPos*20
+            rotationY: xPos*10,
+            rotationX: yPos*5
         })
     }
 
