@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const EVStyle = styled.div`
-    min-height: 200vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: rgba(0,0,0,0.1);
     display: grid;
