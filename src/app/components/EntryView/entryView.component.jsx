@@ -13,8 +13,6 @@ const EntryView = () => {
         const xPos = (offsetX/clientWidth) - 0.5;
         const yPos = (offsetY/clientHeight) - 0.5;
 
-        console.log(xPos, yPos)
-
         TweenLite.to(imgRef, {
             duration: 1.5,
             x: xPos*100,
